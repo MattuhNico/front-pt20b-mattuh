@@ -8,7 +8,7 @@ import { registerService } from "@/services/authServices";
 
 const RegisterForm = () => {
   const router = useRouter();
-  const initialData: Data = {email: "", password: "", address:"", phone: "" };
+  const initialData: Data = {name: "",email: "", password: "", address:"", phone: "" };
   const initialDirty = {email: false, password: false, address: false, phone: false };
   const [data, setData] = useState(initialData);
   const [errors, setErrors] = useState(initialData);
