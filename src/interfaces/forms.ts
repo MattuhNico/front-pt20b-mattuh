@@ -10,7 +10,6 @@ export interface Order {
 }
 
 export interface RegisterForm extends LoginForm {
-    name: string;
     address: string;
     phone: string;
     userId?: number;
